@@ -1,4 +1,4 @@
-module MUX_32(
+module MUX32(
 	data1_i,
 	data2_i,
 	select_i,

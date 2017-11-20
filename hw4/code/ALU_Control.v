@@ -5,10 +5,10 @@ module ALU_Control(
 );
 
 input	[5:0]	funct_i;
-input	[2:0]	ALUOp_i;
-output	[3:0]	ALUCtrl_o;
+input	[1:0]	ALUOp_i;
+output	[2:0]	ALUCtrl_o;
 
-reg		[3:0]	ALUCtrl_o;
+reg		[2:0]	ALUCtrl_o;
 
 always@(funct_i or ALUOp_i) begin
 	case(ALUOp_i)

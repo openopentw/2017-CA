@@ -1,4 +1,4 @@
-module MUX_5(
+module MUX5(
 	data1_i,
 	data2_i,
 	select_i,
